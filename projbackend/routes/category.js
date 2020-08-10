@@ -16,7 +16,7 @@ const { getUserById } = require("../controllers/user");
 router.param("userId", getUserById);
 router.param("categoryId", getCategoryById);
 
-//Actual routers 
+//Actual routers
 
 //Create
 router.post(
